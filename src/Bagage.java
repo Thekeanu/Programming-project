@@ -6,4 +6,11 @@ public class Bagage {
 
         this.gewicht = gewicht;
     }
+
+    @Override
+    public String toString() {
+        return "Bagage{" +
+                "gewicht=" + gewicht +
+                '}';
+    }
 }
