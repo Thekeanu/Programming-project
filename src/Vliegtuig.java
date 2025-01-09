@@ -1,6 +1,7 @@
 import java.util.Objects;
 
 public class Vliegtuig {
+    String vluchtcode;
     String vertrekpunt;
     String bestemming;
     boolean flightcheck = false;
@@ -8,11 +9,12 @@ public class Vliegtuig {
     int economy;
     Passagier[] passagiers;
     Personeel[] personeel;
-    public Vliegtuig(String vertrekpunt, String bestemming, int business, int economy ) {
+    public Vliegtuig(String vluchtcode,String vertrekpunt, String bestemming, int business, int economy ) {
         this.vertrekpunt = vertrekpunt;
         this.bestemming = bestemming;
         this.business = business;
         this.economy = economy;
+        this.vluchtcode = vluchtcode;
     }
 
     public void setFlightcheck(boolean flightcheck) {

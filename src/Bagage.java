@@ -1,6 +1,6 @@
 public class Bagage {
 
-    float gewicht;
+    int gewicht;
 
     public Bagage( int gewicht) {
 
